@@ -175,3 +175,37 @@ body {
 .botao__secundario:hover {
     background-color: #0d0f13d0;
 }
+
+@media (max-width: 1000px) {
+    .container {
+        display: block;
+        background-image: none;
+        align-items: center;
+    }
+
+    .container__imagem {
+        width: 50vw;
+    }
+
+    .container__caixa {
+        margin: 2em 2em;
+    }
+
+    .secundario__imagem {
+        margin-left: 0;
+        width: 50vw;
+    }
+
+    .secundario {
+        margin: 0 2em;
+        text-align: center;
+    }
+    
+    .dispositivos__lista {
+        display: block;
+    }
+
+    .rodape {
+        display: block;
+    }
+}
