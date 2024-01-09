@@ -205,8 +205,7 @@ body {
         display: block;
     }
 
-    .rodape {
+    .rodape__lista {
         display: block;
-        align-items: center;
     }
 }
